@@ -1,0 +1,31 @@
+header {
+    font-family: var(--primary-font);
+    display: flex;
+    width: 100vw;
+    padding: 0 5vw;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 20px;
+    color: var(--purple);
+}
+
+header ul {
+    display: flex;
+    gap: 25px;
+}
+header ul li{
+    font-size: 13px;
+    text-decoration: none;
+    list-style: none;     
+}
+
+header button {
+    background-color: var(--forth-color);
+    border: none;
+    font-size: 13px;
+    padding: 8px 20px;
+    color: white;
+}

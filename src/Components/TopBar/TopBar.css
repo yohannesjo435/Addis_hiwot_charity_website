@@ -1,0 +1,25 @@
+.top-bar-wrapper {
+    width: 100vw;
+    padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: var(--purple);
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--ternary-color);
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.phone-number-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.phone-number-wrapper p {
+    margin-top: 2px;
+}

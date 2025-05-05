@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --purple: #8E7ADA;
+  --primary-color: #ffffff;
+  --secondary-color: #0000;
+  --ternary-color: #142D59;
+  --forth-color: #3570FC;
+  --primary-font: "Poppins", cursive;
+  --secondary-font: "Montserrat", cursive;
+
+}
