@@ -68,8 +68,8 @@ function Hero() {
           <div className="text">
             <h1>Addis Hiwot Charity</h1>
             <h3>
-            Empowering Communities, Changing Lives - Based at Gondar <br />
-            University, Ethiopia
+            Empowering Communities, Changing Lives - Based at Gondar
+            University
             </h3>
             <button className="hero-btn">Reach out</button>
           </div>

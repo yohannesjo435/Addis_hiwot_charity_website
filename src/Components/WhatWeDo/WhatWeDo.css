@@ -1,0 +1,83 @@
+
+.what-we-do {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25vh 10vw;
+    font-family: var(--primary-font);
+    overflow-x: hidden;
+}
+.what-we-do h1{
+    font-size: 50px;
+    letter-spacing: 2%;
+}
+.what-we-do h5{
+    color: var(--purple);
+}
+.what-we-do h6{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+.what-we-do .two-col{
+    display: flex;
+    /* height: 500px; */
+    align-items: center;
+    /* outline: auto; */
+    gap: 50px;
+    margin-top: 50px;
+}
+.what-we-do .two-col .col {
+    flex: 1;    
+}
+.what-we-do .img-wrapper {
+    /* background-color: aqua; */
+    /* outline: auto; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center ; */
+    /* height: 100%; */
+}
+.what-we-do .two-col ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+    line-height: 30px;
+}
+.what-we-do .two-col ul li h3 {
+    font-size: 18px;
+}
+.what-we-do .two-col ul li p {
+    font-size: 13px;
+    color: #4F4F4F;
+}
+.what-we-do .img-wrapper img {
+    width: 100%;
+    border-radius: 30px;
+
+    /* object-fit: contain; */
+}
+
+@media (max-width: 900px) {
+    .what-we-do h1{
+        font-size: 26px;
+    }
+    .what-we-do h5{
+        font-size: 13px;
+    }
+    .what-we-do h6{
+        font-size: 13px;
+    }
+    .what-we-do .two-col {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .what-we-do .two-col ul li h3 {
+        font-size: 15px;
+    }
+    .what-we-do .two-col ul li p {
+        font-size: 12px;
+    }
+}

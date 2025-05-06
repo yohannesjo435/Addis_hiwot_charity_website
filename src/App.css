@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 :root {
   --purple: #8E7ADA;
@@ -12,4 +13,6 @@
   --primary-font: "Poppins", cursive;
   --secondary-font: "Montserrat", cursive;
 
+}
+main {
 }

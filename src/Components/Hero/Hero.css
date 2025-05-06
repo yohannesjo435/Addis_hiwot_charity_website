@@ -10,7 +10,8 @@
     width: 400vw;
     height: 100%;
     list-style: none;
-    background-color: blueviolet;
+    overflow: hidden;
+
     
     transition: all 2s ease;
     left: 0;
@@ -71,7 +72,7 @@
     transition: all 150ms ease;
 }
 .hero #next {
-    right: 0;
+    right: 1.2%;
 }
 .hero #prev:hover, .hero #next:hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -86,4 +87,13 @@
     font-weight: bold;
     border: none;
     margin-top: 10px;
+}
+@media (max-width: 900px) {
+    .hero .slider-wrapper .slide .text h1{
+        font-size: 25px;
+    }
+    .hero .slider-wrapper .slide .text h3{
+        font-size: 12px;
+        line-height: 28px;
+    }
 }

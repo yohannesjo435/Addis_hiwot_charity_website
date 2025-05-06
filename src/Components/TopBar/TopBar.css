@@ -10,16 +10,24 @@
     font-weight: 600;
     font-size: 15px;
     color: var(--ternary-color);
+    overflow: hidden;
+
 }
 .social-icons {
     display: flex;
     gap: 10px;
+    overflow: hidden;
+
 }
 .phone-number-wrapper {
     display: flex;
     gap: 10px;
     align-items: center;
+    overflow: hidden;
+
 }
 .phone-number-wrapper p {
     margin-top: 2px;
+    overflow: hidden;
+
 }

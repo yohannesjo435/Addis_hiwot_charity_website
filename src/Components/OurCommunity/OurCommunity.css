@@ -1,0 +1,67 @@
+
+.our-community {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 10vh 10vw;
+    font-family: var(--primary-font);
+    overflow-x: hidden;
+}
+.our-community h1{
+    font-size: 80px;
+    letter-spacing: 2%;
+    color: var(--purple);
+}
+
+.our-community .two-col{
+    display: flex;
+    align-items: center;
+    /* outline: auto; */
+    justify-content: space-between;
+    /* gap: 50px;   */
+    margin-top: 50px;
+}
+.our-community .two-col .col{
+    flex: 1;
+    
+}
+.our-community .img-wrapper {
+    display: flex;
+    justify-content: end;
+    border-radius: 30px;
+    /* outline: auto; */
+
+}
+
+.our-community .two-col .text h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.our-community .two-col .text p {
+    font-size: 13px;
+    color: #4F4F4F;
+}
+.our-community .img-wrapper img {
+    width: 80%;
+    height: 500px;
+    /* object-fit: contain; */
+    border-radius: 50px;
+}
+
+@media (max-width: 900px) {
+    .our-community h1{
+        font-size: 26px;
+    }
+
+    .our-community .two-col {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .our-community .two-col .tetx h3 {
+        font-size: 15px;
+    }
+    .our-community .two-col .text p {
+        font-size: 12px;
+    }
+}
