@@ -1,8 +1,8 @@
 import React from 'react'
 
-function WhatWeDo() {
+function WhatWeDo({aboutus}) {
   return (
-    <section className='what-we-do'>
+    <section className='what-we-do' id='aboutUS'>
       <h5>What we do</h5>
       <h1>
         Making A differece, <br />

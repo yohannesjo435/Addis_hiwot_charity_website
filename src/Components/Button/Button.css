@@ -1,0 +1,23 @@
+.btn-component {
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* border: 1px solid #ffffff; */
+
+}
+.btn-component a {
+    text-decoration: none;
+    /* color: var(--secondar-gray); */
+}
+.btn-component:hover {
+    background-color: black;
+    border: 1px solid #ffffff;
+}
+.btn-component:hover a {
+    color: #ffffff;
+}

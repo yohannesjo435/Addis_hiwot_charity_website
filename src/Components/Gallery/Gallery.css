@@ -1,0 +1,26 @@
+.gallery {
+    text-align: center;
+    padding: 25vh 5vw;
+    font-family: var(--primary-font);
+}.gallery h3 {
+    
+    font: 40px;
+}
+.gallery .image-container {
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallery .image-container.item{
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+.gallery .image-container .item img{
+    width: 390px;
+}
+
+.gallery .image-container .desc{
+
+    padding: 15px;
+}

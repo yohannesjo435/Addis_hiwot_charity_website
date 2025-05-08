@@ -1,7 +1,7 @@
 header {
     font-family: var(--primary-font);
     display: flex;
-    width: 100vw;
+    /* width: 100vw; */
     padding: 0 5vw;
     height: 60px;
     justify-content: space-between;
@@ -9,10 +9,18 @@ header {
     position: relative;
 
 }
-header .logo {
-    font-size: 20px;
+header .logo  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header .logo img {
+    width: 50px;
+}
+header .logo p {
+    margin-top: 9px;
+    text-wrap: noWrap;
     color: var(--purple);
-
 }
 
 header ul {
@@ -24,16 +32,21 @@ header ul {
 header ul li{
     font-size: 13px;
     text-decoration: none;
-    list-style: none;     
+    list-style: none;    
+    transition: 0.25s; 
+}
+header ul li:hover{
+    color: var(--purple);   
+    cursor: pointer;
 }
 
-header button {
+/* header button {
     background-color: var(--forth-color);
     border: none;
     font-size: 13px;
     padding: 8px 20px;
     color: white;
-}
+} */
 header .humburger-menu{
     width: 25px;
     height: 25px;
@@ -48,7 +61,9 @@ header .humburger-menu div{
     height: 3px;
     background-color: rgb(80, 79, 79);
 }
-
+#aboutUs {
+    cursor: pointer;
+}
 @media (max-width: 900px){
     header button {
         display: none;

@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Button from "../Button/Button"
+import "../Button/Button.css"
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -23,14 +25,14 @@ function Header() {
 
   return (
     <header>
-      <div className="logo">Addis Hiwot</div>
+      <div className="logo"><img src="./src\assets\addishiwot_logo.png" alt="" /><p>Addis Hiwot</p></div>
 
       {windowWidth < 900 ? (
         <>
           {isActive && (
             <ul>
-              <li>About us</li>
-              <li>Our work</li>
+            <li><a href="#aboutUs">About us</a></li>           
+             <li>Our work</li>
               <li>Get invoved</li>
               <li>Contact Us</li>
             </ul>
@@ -38,14 +40,22 @@ function Header() {
         </>
       ) : (
         <ul>
-          <li>About us</li>
+          <li><a href="#aboutUs">About us</a></li>
           <li>Our work</li>
           <li>Get invoved</li>
           <li>Contact Us</li>
         </ul>
-      )}
+      )} 
 
-      <button>Contact Us</button>
+      {/* <button>Contact Us</button> */}
+      <Button 
+        Children="Donate" 
+        backgroundColor={"var(--forth-color)"} 
+        width={"136px"} 
+        border="2px solid white"
+        color={"white"}
+        padding={"10px 10px"}
+        ></Button>
 
       <div
         className={`humburger-menu ${isActive ? "hum-active" : ""} `}

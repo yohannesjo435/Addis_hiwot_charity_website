@@ -12,6 +12,7 @@ function TopBar() {
       </div>
 
       <div className="phone-number-wrapper">
+        <p>10003456789</p>
         <FaPhoneAlt />
         <p>+12345678</p>
       </div>

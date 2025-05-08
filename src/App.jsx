@@ -10,6 +10,12 @@ import WhatWeDo from './Components/WhatWeDo/WhatWeDo'
 import "./Components/WhatWeDo/WhatWeDo.css"
 import OurCommunity from './Components/OurCommunity/OurCommunity'
 import "./Components/OurCommunity/OurCommunity.css"
+import Footer from './Components/Footer/Footer'
+import "./Components/Footer/Footer.css"
+
+import Gallery from './Components/Gallery/Gallery'
+import './Components/Gallery/Gallery.css'
+
 
 function App() {
   
@@ -20,7 +26,11 @@ function App() {
         <Header></Header>
         <Hero></Hero>
         <WhatWeDo></WhatWeDo>
-        <OurCommunity></OurCommunity>
+        <section id='aboutUs'>
+          <OurCommunity></OurCommunity>
+        </section>
+        <Gallery></Gallery>
+        <Footer></Footer>
       </main>
     </>
   )

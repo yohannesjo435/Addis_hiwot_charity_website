@@ -2,17 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 :root {
   --purple: #8E7ADA;
   --primary-color: #ffffff;
-  --secondary-color: #0000;
+  --secondary-color: #000000;
   --ternary-color: #142D59;
   --forth-color: #3570FC;
-  --primary-font: "Poppins", cursive;
+  --primary-font: "Poppins",  Arial, Helvetica, sans-serif;;
   --secondary-font: "Montserrat", cursive;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 main {
+  font-family: Arial, Helvetica, sans-serif;
+    /* overflow-x: hidden; */
+    /* width: 100vw; */
+    /* outline: 3px solid red; */
 }
