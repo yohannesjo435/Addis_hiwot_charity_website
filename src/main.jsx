@@ -9,7 +9,7 @@ import "./Components/GalleryPage/GalleryPage.css"
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>
+    element: <App></App>,
   },
    {
     path: "/gallery",
@@ -19,6 +19,6 @@ const routes = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={routes}></RouterProvider>
+    <RouterProvider basename="/Addis_hiwot_charity_website/" router={routes}></RouterProvider>
   </StrictMode>,
 )
