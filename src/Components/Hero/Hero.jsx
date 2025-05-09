@@ -70,11 +70,9 @@ function Hero() {
         <li className="slide">
           <img src={heroImg1} alt="group photo of charity members" />
           <div className="text">
-            <h1>Our Visit to Prisoners</h1>
+            <h1>Addis Hiwot</h1>
             <h3>
-              We believe in second chances and the power of compassion. Our
-              visit brought warmth, understanding, and support to those longing
-              for a new beginning.
+              We bring warmth and support to those seeking a second chance.
             </h3>
             <Button
               Children="Donate"
@@ -90,11 +88,9 @@ function Hero() {
         <li className="slide">
           <img src={heroImg2} alt="group photo of charity members" />
           <div className="text">
-            <h1>Give Life, Give Blood: Join Our Blood Donation Drive</h1>
+            <h1>Join Our Blood Drive</h1>
             <h3>
-              Your donation saves lives—be a hero in your community by helping
-              those in urgent need. Together, we can make a difference, one drop
-              at a time.
+              Save lives—be a hero in your community with the University of Gondar's support.
             </h3>
             <Button
               Children="Donate"
@@ -111,11 +107,9 @@ function Hero() {
           <img src={heroImg3} alt="group photo of charity members" />
 
           <div className="text">
-            <h1>Stronger Together: Partnering with MENA Charity</h1>
+            <h1>Partnering with MENA Charity</h1>
             <h3>
-              United by purpose, we join hands with MENA Charity to empower
-              communities, deliver aid, and create lasting change across the
-              region.
+              Together, we empower communities and create change.
             </h3>
             <Button
               Children="Donate"
@@ -131,11 +125,9 @@ function Hero() {
         <li className="slide">
           <img src={heroImg4} alt="group photo of charity members" />
           <div className="text">
-            <h1>Kick for a Cause: Football Fundraising Event</h1>
+            <h1>Football Fundraiser</h1>
             <h3>
-              Uniting sport and charity, our football matches raise vital funds
-              to support education, healthcare, and opportunities for the
-              underserved.
+              Uniting sports and charity to support the underserved.
             </h3>
             <Button
               Children="Donate"
@@ -151,10 +143,9 @@ function Hero() {
         <li className="slide">
           <img src={heroImg5} alt="group photo of charity members" />
           <div className="text">
-            <h1>Honoring Resilience: Celebrating Adwa</h1>
+            <h1>Celebrating Adwa</h1>
             <h3>
-              Together, we commemorate the spirit of victory and freedom,
-              inspiring hope and pride to build a better tomorrow for all.
+              Honoring resilience and inspiring hope for a better tomorrow.
             </h3>
             <Button
               Children="Donate"

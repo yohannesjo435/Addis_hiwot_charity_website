@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button/Button"
 import "../Button/Button.css"
 import { Link } from "react-router";
+import logo from "../../assets/addishiwot_logo.png"
+
 
 function Header({isInGalleryPage}) {
   const [isActive, setIsActive] = useState(false);
@@ -27,7 +29,7 @@ function Header({isInGalleryPage}) {
   return (
     <div className="header-wrapper">
       <header>
-        <div className="logo"><img src="./src\assets\addishiwot_logo.png" alt="" /><p>Addis Hiwot</p></div>
+        <divc className="logo"><img src={logo} /><p>Addis Hiwot</p></divc>
         {windowWidth < 900 ? (
           <>
             {isActive && (

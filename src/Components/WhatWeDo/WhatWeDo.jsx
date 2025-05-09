@@ -10,8 +10,8 @@ function WhatWeDo({aboutus}) {
         Making A differece, <br />
         One Life at a Time.
       </h1>
-      <h6>At Hope, we dedicated to uplifting conmmunities through a <br />
-        range of targeted initiatives. Our focus area include
+      <h6>At Addis Hiwot, we dedicated to uplifting conmmunities through a <br />
+        range of targeted initiatives. Our focus area includes
       </h6>
 
       <div className='two-col'>
