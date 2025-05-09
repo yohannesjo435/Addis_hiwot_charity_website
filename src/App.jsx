@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import TopBar from './Components/TopBar'
-import "./Components/TopBar/TopBar.css"
+// import TopBar from './Components/TopBar'
+// import "./Components/TopBar/TopBar.css"
 import Header from './Components/Header/Header'
 import "./Components/Header/Header.css"
 import Hero from './Components/Hero/Hero'
@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <main>
-        <TopBar></TopBar>
+        {/* <TopBar></TopBar> */}
         <Header isInGalleryPage={false}></Header>
         <Hero></Hero>
         <Card></Card>
