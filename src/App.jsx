@@ -12,8 +12,8 @@ import OurCommunity from './Components/OurCommunity/OurCommunity'
 import "./Components/OurCommunity/OurCommunity.css"
 import Footer from './Components/Footer/Footer'
 import "./Components/Footer/Footer.css"
-import Gallery from './Components/Gallery/Gallery'
-import './Components/Gallery/Gallery.css'
+import Card from './Components/Card/Card'
+import './Components/Card/Card.css'
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <TopBar></TopBar>
         <Header isInGalleryPage={false}></Header>
         <Hero></Hero>
-        <Gallery></Gallery>
+        <Card></Card>
         <WhatWeDo></WhatWeDo>
         <section id='aboutUs'>
           <OurCommunity></OurCommunity>

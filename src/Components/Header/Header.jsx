@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button/Button"
 import "../Button/Button.css"
 import { Link } from "react-router";
-// import Gallery from "../Gallery/Gallery";
 
 function Header({isInGalleryPage}) {
   const [isActive, setIsActive] = useState(false);

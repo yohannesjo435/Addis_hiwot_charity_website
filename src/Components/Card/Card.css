@@ -1,4 +1,4 @@
-.GalleryPage {
+.card {
     text-align: center;
     padding: 10vh 5vw 5vh 5vw;
     font-family: var(--primary-font);
@@ -6,11 +6,11 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-}.GalleryPage h1 {
+}.card h1 {
     color: var(--purple);
     font-size: 45px;
 }
-.GalleryPage .image-container {
+.card .card-image-container {
     display: flex;
     gap: 3%;  
     row-gap: 50px;  
@@ -18,19 +18,19 @@
     flex-wrap: wrap;
     flex: 1;
 }
-.GalleryPage .image-container .item{
+.card .card-image-container .cardItem{
     border: 1px solid #ccc;
     padding: 6px 6px;
     width: 31%;
     min-width: 340px;
 }
-.GalleryPage .image-container .item img{
+.card .card-image-container .cardItem img{
     width: 100%;
     height: 250px;
     /* border-radius: 10px; */
 }
 
-.GalleryPage .image-container .desc{
+.card .card-image-container .cardItem .cardDesc{
     font-family: var(--secondary-font);
     padding: 15px;
     line-height: 20px;

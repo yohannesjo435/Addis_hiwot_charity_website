@@ -15,10 +15,10 @@ const routes = createBrowserRouter([
     path: "/gallery",
     element: <GalleryPage></GalleryPage>
   }
-])
+], {basename: "/Addis_hiwot_charity_website/"})
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider basename="/Addis_hiwot_charity_website/" router={routes}></RouterProvider>
+    <RouterProvider router={routes}></RouterProvider>
   </StrictMode>,
 )
