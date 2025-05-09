@@ -3,7 +3,7 @@ import Feedback from '../Feedback/Feedback'
 import '../Feedback/Feedback.css'
 import FooterLinks from '../FooterLinks/FooterLinks'
 import '../FooterLinks/FooterLinks.css'
-
+import logo from "../../assets/addishiwot_logo.png"
 
 function Footer() {
   return (
@@ -19,7 +19,7 @@ function Footer() {
 function FooterLogo() {
   return (
     <div className='footer-img-wrapper'>
-      <img src="src\assets\addishiwot_logo.png"/>
+      <img src={logo}/>
     </div>
   )
 }

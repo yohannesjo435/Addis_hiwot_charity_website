@@ -8,6 +8,16 @@ import "../Footer/Footer.css"
 import TopBar from '../TopBar/TopBar'
 import "../TopBar/TopBar.css"
 
+import photo1 from "../../assets/photoOfFamily.jpg"
+import photo2 from "../../assets/girlDonating Blood.jpg"
+import photo3 from "../../assets/olderPeopleGetingHairCut.jpg"
+// import photo4 from "../../assets/photoOfFamily.jpg"
+// import photo5 from "../../assets/photoOfFamily.jpg"
+// import photo6 from "../../assets/photoOfFamily.jpg"
+// import photo7 from "../../assets/photoOfFamily.jpg"
+// import photo8 from "../../assets/photoOfFamily.jpg"
+// import photo9 from "../../assets/photoOfFamily.jpg"
+
 function GalleryPage() {
   return (
     <>
@@ -18,7 +28,7 @@ function GalleryPage() {
 
         <div className="image-container">
           <div className="item">
-            <img src="src\assets\photoOfFamily.jpg" />
+            <img src={photo1} />
             <div className="desc">
               A loving family supported by our charity, showcasing the impact of
               community assistance
@@ -26,7 +36,7 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src="src\assets\girlDonating Blood.jpg" />
+            <img src={photo2} />
             <div className="desc">
               Volunteers unite to donate blood, saving lives and supporting our
               charitable mission.
@@ -34,7 +44,7 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src="src\assets\olderPeopleGetingHairCut.jpg" />
+            <img src={photo3} />
             <div className="desc">
               Providing essential grooming and cleanup services to the elderly and
               homeless, fostering dignity and care.
@@ -42,7 +52,7 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src="src\assets\photoOfFamily.jpg" />
+            <img src={photo1}/>
             <div className="desc">
               A loving family supported by our charity, showcasing the impact of
               community assistance
@@ -50,7 +60,7 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src="src\assets\girlDonating Blood.jpg" />
+            <img src={photo2} />
             <div className="desc">
               Volunteers unite to donate blood, saving lives and supporting our
               charitable mission.
@@ -58,60 +68,13 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src="src\assets\olderPeopleGetingHairCut.jpg" />
+            <img src={photo1} />
             <div className="desc">
               Providing essential grooming and cleanup services to the elderly and
               homeless, fostering dignity and care.
             </div>
           </div>
 
-          <div className="item">
-            <img src="src\assets\photoOfFamily.jpg" />
-            <div className="desc">
-              A loving family supported by our charity, showcasing the impact of
-              community assistance
-            </div>
-          </div>
-
-          <div className="item">
-            <img src="src\assets\girlDonating Blood.jpg" />
-            <div className="desc">
-              Volunteers unite to donate blood, saving lives and supporting our
-              charitable mission.
-            </div>
-          </div>
-
-          <div className="item">
-            <img src="src\assets\olderPeopleGetingHairCut.jpg" />
-            <div className="desc">
-              Providing essential grooming and cleanup services to the elderly and
-              homeless, fostering dignity and care.
-            </div>
-          </div>
-
-          <div className="item">
-            <img src="src\assets\photoOfFamily.jpg" />
-            <div className="desc">
-              A loving family supported by our charity, showcasing the impact of
-              community assistance
-            </div>
-          </div>
-
-          <div className="item">
-            <img src="src\assets\girlDonating Blood.jpg" />
-            <div className="desc">
-              Volunteers unite to donate blood, saving lives and supporting our
-              charitable mission.
-            </div>
-          </div>
-
-          <div className="item">
-            <img src="src\assets\olderPeopleGetingHairCut.jpg" />
-            <div className="desc">
-              Providing essential grooming and cleanup services to the elderly and
-              homeless, fostering dignity and care.
-            </div>
-          </div>
 
 
 

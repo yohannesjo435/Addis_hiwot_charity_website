@@ -37,7 +37,7 @@ function WhatWeDo({aboutus}) {
             </li>
         </ul>
         <div className='img-wrapper col'>
-            <img src="./src\assets\children group photo.jpg" alt="children group photo" />
+            <img src={import.meta.env.BASE_URL + "/src\assets\children group photo.jpg"} alt="children group photo" />
         </div>
       </div>
     </section>

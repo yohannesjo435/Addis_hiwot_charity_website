@@ -2,6 +2,12 @@ import React from "react";
 import Button from "../Button/Button";
 import "../Button/Button.css";
 
+import heroImg1 from "../../assets/charity members group photo.jpg"
+import heroImg2 from "../../assets/bloodDonation.jpg"
+import heroImg3 from "../../assets/collabwithmena.jpg"
+import heroImg4 from "../../assets/GroupPhoto.jpg"
+import heroImg5 from "../../assets/PatroitDayGroupPhoto.jpg"
+
 function Hero() {
   const responsiveSlider = function () {
     const slider = document.getElementById("slider");
@@ -60,7 +66,7 @@ function Hero() {
       <ul className="slider-wrapper" id="slideWrap">
         <li className="slide">
           <img
-            src="src\assets\charity members group photo.jpg"
+            src={heroImg1}
             alt="group photo of charity members"
           />
           <div className="text">
@@ -82,7 +88,7 @@ function Hero() {
 
         <li className="slide">
           <img
-            src="src\assets\bloodDonation.jpg"
+            src={heroImg2}
             alt="group photo of charity members"
           />
           <div className="text">
@@ -104,7 +110,7 @@ function Hero() {
 
         <li className="slide">
           <img
-            src="./src\assets\collabwithmena.jpg"
+            src={heroImg3}
             alt="group photo of charity members"
           />
 
@@ -127,7 +133,7 @@ function Hero() {
 
         <li className="slide">
           <img
-            src="src\assets\GroupPhoto.jpg"
+            src={heroImg4}
             alt="group photo of charity members"
           />
           <div className="text">
@@ -149,7 +155,7 @@ function Hero() {
 
         <li className="slide">
           <img
-            src="src\assets\PatroitDayGroupPhoto.jpg"
+            src={heroImg5}
             alt="group photo of charity members"
           />
           <div className="text">

@@ -29,7 +29,7 @@ function OurCommunity() {
         </ul>
         <div className="img-wrapper col">
           <img
-            src="src\assets\celebration.jpg"
+            src={import.meta.env.BASE_URL + "src\assets\celebration.jpg"}
             alt="children group photo"
           />
         </div>

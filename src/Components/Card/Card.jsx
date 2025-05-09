@@ -4,6 +4,11 @@ import Button from "../Button/Button"
 import "../Button/Button.css"
 import { Link } from "react-router";
 
+import cardImg1 from "../../assets/photoOfFamily.jpg"
+import cardImg2 from "../../assets/photoOfFamily.jpg"
+import cardImg3 from "../../assets/olderPeopleGetingHairCut.jpg"
+
+
 function Card() {
   return (
     <section className="card">
@@ -11,7 +16,7 @@ function Card() {
 
       <div className="card-image-container">
         <div className="cardItem">
-          <img src="src\assets\photoOfFamily.jpg" />
+          <img src={cardImg1} />
           <div className="cardDesc">
             A loving family supported by our charity, showcasing the impact of
             community assistance
@@ -19,7 +24,7 @@ function Card() {
         </div>
 
         <div className="cardItem">
-          <img src="src\assets\girlDonating Blood.jpg" />
+          <img src={cardImg2} />
           <div className="cardDesc">
             Volunteers unite to donate blood, saving lives and supporting our
             charitable mission.
@@ -27,7 +32,7 @@ function Card() {
         </div>
 
         <div className="cardItem">
-          <img src="src\assets\olderPeopleGetingHairCut.jpg" />
+          <img src={cardImg3} />
           <div className="cardDesc">
             Providing essential grooming and cleanup services to the elderly and
             homeless, fostering dignity and care.
