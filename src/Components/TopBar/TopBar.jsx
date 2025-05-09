@@ -2,6 +2,7 @@ import React from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";    
 import { FaFacebook } from "react-icons/fa";
+import { BsBank } from "react-icons/bs";
 
 function TopBar() {
   return (
@@ -12,6 +13,7 @@ function TopBar() {
       </div>
 
       <div className="phone-number-wrapper">
+        <BsBank></BsBank>
         <p>10003456789</p>
         <FaPhoneAlt />
         <p>+12345678</p>

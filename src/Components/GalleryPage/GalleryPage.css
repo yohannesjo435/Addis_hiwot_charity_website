@@ -1,6 +1,6 @@
 .GalleryPage {
     text-align: center;
-    padding: 10vh 5vw 5vh 5vw;
+    padding: 15vh 5vw 15vh 5vw;
     font-family: var(--primary-font);
     align-items: center;
     display: flex;
@@ -12,17 +12,19 @@
 }
 .GalleryPage .image-container {
     display: flex;
-    gap: 3%;  
-    row-gap: 50px;  
+    column-gap: 30px;  
+    row-gap: 40px;  
     justify-content: center;
     flex-wrap: wrap;
-    flex: 1;
+    flex: 1 1 25%;
 }
 .GalleryPage .image-container .item{
     border: 1px solid #ccc;
     padding: 6px 6px;
-    width: 31%;
-    min-width: 340px;
+    /* min-width: 300px; */
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 128, 0, 0.123) 0px 0px 0px 1px;
+
+
 }
 .GalleryPage .image-container .item img{
     width: 100%;

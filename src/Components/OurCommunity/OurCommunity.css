@@ -29,7 +29,7 @@
 .our-community .img-wrapper {
     display: flex;
     justify-content: end;
-    border-radius: 30px;
+    /* border-radius: 10px; */
     /* outline: auto; */
 
 }
@@ -40,13 +40,13 @@
 }
 .our-community .two-col .text p {
     font-size: 13px;
-    color: #4F4F4F;
+    color: var(--gray);
 }
 .our-community .img-wrapper img {
     width: 80%;
     height: 500px;
     /* object-fit: contain; */
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 @media (max-width: 900px) {

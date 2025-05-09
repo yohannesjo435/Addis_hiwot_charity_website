@@ -1,3 +1,13 @@
+.header-wrapper {
+    position: sticky;
+    top: 1%;
+    z-index: 100;
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+    border-radius: 10px;
+}
 header {
     font-family: var(--primary-font);
     display: flex;
@@ -34,6 +44,11 @@ header ul li{
     text-decoration: none;
     list-style: none;    
     transition: 0.25s; 
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+
 }
 header ul li:hover{
     color: var(--purple);   

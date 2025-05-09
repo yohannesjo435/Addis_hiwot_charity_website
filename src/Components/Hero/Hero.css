@@ -7,11 +7,12 @@
 }
 .hero .slider-wrapper {
     position: relative;
+    /* width: max-content; */
     width: 500vw;
     /* Auto edit based on number of image */
     height: 100%;
     list-style: none;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     
     transition: all 2s ease;
@@ -19,10 +20,11 @@
 }
 .hero .slider-wrapper .slide{
     position: relative;
-    width: 100vw;
+    width: 99vw;
     height: 100%;
     /* height: 450px; */
     float: left;
+    /* overflow: hidden; */
 }
 
 .hero .slider-wrapper .slide img{
@@ -34,7 +36,7 @@
 }
 .hero .slider-wrapper .slide:nth-child(2) img{
     object-fit: fill;
-    /* object-position: ; */
+    /* object-position:; */
 }
 .hero .slider-wrapper .slide .text{
     color: var(--primary-color);

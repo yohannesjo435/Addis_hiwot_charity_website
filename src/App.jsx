@@ -12,7 +12,6 @@ import OurCommunity from './Components/OurCommunity/OurCommunity'
 import "./Components/OurCommunity/OurCommunity.css"
 import Footer from './Components/Footer/Footer'
 import "./Components/Footer/Footer.css"
-
 import Gallery from './Components/Gallery/Gallery'
 import './Components/Gallery/Gallery.css'
 
@@ -23,13 +22,13 @@ function App() {
     <>
       <main>
         <TopBar></TopBar>
-        <Header></Header>
+        <Header isInGalleryPage={false}></Header>
         <Hero></Hero>
+        <Gallery></Gallery>
         <WhatWeDo></WhatWeDo>
         <section id='aboutUs'>
           <OurCommunity></OurCommunity>
         </section>
-        <Gallery></Gallery>
         <Footer></Footer>
       </main>
     </>

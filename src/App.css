@@ -9,6 +9,7 @@
   --secondary-color: #000000;
   --ternary-color: #142D59;
   --forth-color: #3570FC;
+  --gray: #4F4F4F;
   --primary-font: "Poppins",  Arial, Helvetica, sans-serif;;
   --secondary-font: "Montserrat", cursive;
 
@@ -16,8 +17,9 @@
 html {
   scroll-behavior: smooth;
 }
+
 main {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
     /* overflow-x: hidden; */
     /* width: 100vw; */
     /* outline: 3px solid red; */
