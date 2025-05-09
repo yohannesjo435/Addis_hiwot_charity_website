@@ -20,6 +20,7 @@ export default function FooterLinks() {
         <li>Phone: +251 912320922</li>
         <li>Phone: 251 910115782</li>
         <li>Phone: +251 913857376</li>
+        <li>CBE: 1000095074147</li>
         <li>2002addishiwot@gmail.com</li>
         <li>www.addisHiwot.com</li>
       </ul>
