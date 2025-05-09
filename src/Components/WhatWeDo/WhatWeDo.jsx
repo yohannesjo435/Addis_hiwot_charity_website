@@ -1,4 +1,6 @@
 import React from 'react'
+import WhatWeDoImg1 from "../../assets/children group photo.jpg"
+
 
 function WhatWeDo({aboutus}) {
   return (
@@ -37,7 +39,7 @@ function WhatWeDo({aboutus}) {
             </li>
         </ul>
         <div className='img-wrapper col'>
-            <img src={import.meta.env.BASE_URL + "/src\assets\children group photo.jpg"} alt="children group photo" />
+            <img src={WhatWeDoImg1} alt="children group photo" />
         </div>
       </div>
     </section>

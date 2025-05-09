@@ -8,6 +8,9 @@ import heroImg3 from "../../assets/collabwithmena.jpg"
 import heroImg4 from "../../assets/GroupPhoto.jpg"
 import heroImg5 from "../../assets/PatroitDayGroupPhoto.jpg"
 
+import { FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa"; 
+
 function Hero() {
   const responsiveSlider = function () {
     const slider = document.getElementById("slider");
@@ -176,10 +179,10 @@ function Hero() {
         </li>
       </ul>
       <a id="prev" href="#">
-        &#8810;
+        <FaArrowLeft />
       </a>
       <a id="next" href="#">
-        &#8811;
+        <FaArrowRight />
       </a>
     </div>
   );

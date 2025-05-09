@@ -1,4 +1,6 @@
 import React from "react";
+import OurCommunityImg1 from "../../assets/celebration.jpg"
+
 
 function OurCommunity() {
   return (
@@ -29,7 +31,7 @@ function OurCommunity() {
         </ul>
         <div className="img-wrapper col">
           <img
-            src={import.meta.env.BASE_URL + "src\assets\celebration.jpg"}
+            src={OurCommunityImg1}
             alt="children group photo"
           />
         </div>
