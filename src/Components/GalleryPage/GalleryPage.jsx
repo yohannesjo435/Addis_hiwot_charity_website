@@ -16,7 +16,7 @@ import photo5 from "../../assets/peopleWashingClothe.jpg"
 import photo6 from "../../assets/helpingElderly.jpg"
 import photo7 from "../../assets/clotheDonation.jpg"
 import photo8 from "../../assets/WomenGetinBraid.jpg"
-import photo9 from "../../assets/childrenGetingTheirHairDone.jpg"
+import photo9 from "../../assets/childrenGetingTHeirHairDone.jpg"
 
 function GalleryPage() {
   return (
