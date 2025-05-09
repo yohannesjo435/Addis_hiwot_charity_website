@@ -16,8 +16,11 @@ export default function FooterLinks() {
 
       <ul>
         <h4>Contact Us</h4>
-        <li>+0901010101</li>
-        <li>+0902020304</li>
+        <li>+Phone: +251 915861262</li>
+        <li>Phone: +251 912320922</li>
+        <li>Phone: 251 910115782</li>
+        <li>Phone: +251 913857376</li>
+        <li>2002addishiwot@gmail.com</li>
         <li>www.addisHiwot.com</li>
       </ul>
 

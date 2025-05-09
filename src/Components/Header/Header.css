@@ -87,11 +87,12 @@ header .humburger-menu div{
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 100%;
+        top: 110%;
         left: 0;
         right: 0;
         z-index: 10;
         padding: 25px 5vw;
+        border-radius: 10px;
 
 
         background-color: whitesmoke;

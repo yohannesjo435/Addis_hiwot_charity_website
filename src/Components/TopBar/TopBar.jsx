@@ -14,9 +14,9 @@ function TopBar() {
 
       <div className="phone-number-wrapper">
         <BsBank></BsBank>
-        <p>10003456789</p>
+        <p>1000095074147</p>
         <FaPhoneAlt />
-        <p>+12345678</p>
+        +251 915861262
       </div>
     </div>
   )

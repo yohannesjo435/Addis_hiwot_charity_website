@@ -66,13 +66,14 @@
 }
 .hero #prev, .hero #next {
     width: 40px;
-    line-height: 40px;
-  
+    /* line-height: 40px; */
+    padding: 6px 0 0 0px;
     font-size: 1.5rem;
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     text-align: center;
     color: black;
-      background: #f9f7fb;
+    border: 1px solid #f9f9f9;
+      /* background: #f9f7fb; */
     text-decoration: none;
     position: absolute;
     top: 50%;

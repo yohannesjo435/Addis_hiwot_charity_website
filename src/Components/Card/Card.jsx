@@ -5,8 +5,9 @@ import "../Button/Button.css"
 import { Link } from "react-router";
 
 import cardImg1 from "../../assets/photoOfFamily.jpg"
-import cardImg2 from "../../assets/photoOfFamily.jpg"
+import cardImg2 from "../../assets/helpingTheElderling.jpg"
 import cardImg3 from "../../assets/olderPeopleGetingHairCut.jpg"
+import cardImg4 from "../../assets/girlDonating Blood.jpg"
 
 
 function Card() {
@@ -24,7 +25,7 @@ function Card() {
         </div>
 
         <div className="cardItem">
-          <img src={cardImg2} />
+          <img src={cardImg4} />
           <div className="cardDesc">
             Volunteers unite to donate blood, saving lives and supporting our
             charitable mission.

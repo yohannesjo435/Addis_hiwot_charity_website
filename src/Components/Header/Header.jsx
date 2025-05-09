@@ -55,6 +55,7 @@ function Header({isInGalleryPage}) {
           border="2px solid white"
           color={"white"}
           padding={"10px 10px"}
+          href={"#footer"}
           ></Button>
         <div
           className={`humburger-menu ${isActive ? "hum-active" : ""} `}

@@ -11,12 +11,12 @@ import "../TopBar/TopBar.css"
 import photo1 from "../../assets/photoOfFamily.jpg"
 import photo2 from "../../assets/girlDonating Blood.jpg"
 import photo3 from "../../assets/olderPeopleGetingHairCut.jpg"
-// import photo4 from "../../assets/photoOfFamily.jpg"
-// import photo5 from "../../assets/photoOfFamily.jpg"
-// import photo6 from "../../assets/photoOfFamily.jpg"
-// import photo7 from "../../assets/photoOfFamily.jpg"
-// import photo8 from "../../assets/photoOfFamily.jpg"
-// import photo9 from "../../assets/photoOfFamily.jpg"
+import photo4 from "../../assets/helpingTheElderling.jpg"
+import photo5 from "../../assets/peopleWashingClothe.jpg"
+import photo6 from "../../assets/helpingElderly.jpg"
+import photo7 from "../../assets/clotheDonation.jpg"
+import photo8 from "../../assets/WomenGetinBraid.jpg"
+import photo9 from "../../assets/childrenGetingTheirHairDone.jpg"
 
 function GalleryPage() {
   return (
@@ -52,7 +52,7 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src={photo1}/>
+            <img src={photo4}/>
             <div className="desc">
               A loving family supported by our charity, showcasing the impact of
               community assistance
@@ -60,7 +60,7 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src={photo2} />
+            <img src={photo5} />
             <div className="desc">
               Volunteers unite to donate blood, saving lives and supporting our
               charitable mission.
@@ -68,7 +68,31 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src={photo1} />
+            <img src={photo6} />
+            <div className="desc">
+              Providing essential grooming and cleanup services to the elderly and
+              homeless, fostering dignity and care.
+            </div>
+          </div>
+
+          <div className="item">
+            <img src={photo7} />
+            <div className="desc">
+              Providing essential grooming and cleanup services to the elderly and
+              homeless, fostering dignity and care.
+            </div>
+          </div>
+
+          <div className="item">
+            <img src={photo8} />
+            <div className="desc">
+              Providing essential grooming and cleanup services to the elderly and
+              homeless, fostering dignity and care.
+            </div>
+          </div>
+
+          <div className="item">
+            <img src={photo9} />
             <div className="desc">
               Providing essential grooming and cleanup services to the elderly and
               homeless, fostering dignity and care.

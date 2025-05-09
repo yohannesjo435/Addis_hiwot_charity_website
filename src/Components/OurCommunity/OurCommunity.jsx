@@ -12,21 +12,18 @@ function OurCommunity() {
 
       <div className="two-col">
         <ul className="text col">
-          <h2>The Journey of Hope</h2>
+          <h2>The Journey of Addis Hiwot</h2>
           <p>
-            Hope was born out of a deep-seated belief that every life holds
-            immense value and potential. Founded in [Year], our organization
-            began with a small group of passionate individuals determined to
-            make a difference. From humble beginnings, we have grown into a
-            network of dedicated volunteers, supporters, and partners, all
-            united by a common goal: to bring hope to those who need it most.
-            Our journey has been marked by countless stories of transformation
-            and triumph. From a child who received a scholarship and became the
-            first in their family to attend college, to communities that have
-            blossomed through our sustainable farming programs – these successes
-            fuel our commitment to continue our work with unwavering dedication.
-            We invite you to be a part of our story. Together, we can turn the
-            tide and create a world where hope is a reality for everyone.
+            The name, Addis Hiwot is given because to remember
+            Hiwot Girma that give the opportunity we came
+            togetherIn 2010, Hiwot Girma was Pleasant girl of 21 and a second year nursing
+            student, Hiwot Girma who had been diagnosed with aplastic
+            anaemia was referred abroad for better management.
+            A call for help notice was posted, and it caught the eyes of the
+            PC-II student of the time(2002E.C), and they decided to take
+            action and involve in the fund raising activities and Addis Hiwot established to offer opportunities for those who are in need to
+            empower themselves and enable them to take charge
+            in solving societal problems in return.
           </p>
         </ul>
         <div className="img-wrapper col">

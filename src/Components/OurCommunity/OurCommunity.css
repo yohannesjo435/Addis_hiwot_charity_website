@@ -11,6 +11,7 @@
 .our-community h1{
     font-size: 80px;
     letter-spacing: 2%;
+    line-height: 140%;
     color: var(--purple);
 }
 
