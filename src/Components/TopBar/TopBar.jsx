@@ -16,7 +16,7 @@ function TopBar() {
         <BsBank></BsBank>
         <p>1000095074147</p>
         <FaPhoneAlt />
-        +251 915861262
+        <p>+251 915861262</p>
       </div>
     </div>
   )

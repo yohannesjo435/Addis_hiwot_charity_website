@@ -1,0 +1,89 @@
+.aboutUs-section {
+  width: 80%;
+  margin:auto;
+  padding: 60px 0;   
+  font-family: var(--primary-font); 
+
+
+}
+.aboutUs-section .row {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutUs-section .row .aboutUs-left{
+  flex-basis: 65%;
+}
+.aboutUs-section .row .aboutUs-left img {
+  width: 100%;
+  max-width: 630px;
+  max-height: 420px;
+  border-radius: 10px;
+  /* object-fit: fill; */
+  /* height: 500px; */
+}
+
+.aboutUs-section .row .aboutUs-left h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #222;
+    font-weight: 600;
+}
+.aboutUs-section .row .aboutUs-left h3 {
+    font-family: var(--secondary-font);
+  color: #222;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+.aboutUs-section .row .aboutUs-left p {
+    /* color: #999; */
+    color: var(--gray);
+  font-family: var(--teranry-font);
+}
+
+.aboutUs-section .row .aboutUs-right{
+  flex-basis: 32%;
+}
+.aboutUs-section .row .aboutUs-right h3 {
+  background: var(--purple);
+  color: #fff;
+  padding: 7px 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.aboutUs-section .aboutUs-right div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.comment-box{
+  border:  1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+}
+.comment-box h3{
+  text-align: left;
+}
+.comment-form input, .comment-form textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+.comment-form button {
+  margin: 10px 0;
+}
+
+@media(max-width: 900px){
+  .row{
+    flex-direction: column;
+  }
+}

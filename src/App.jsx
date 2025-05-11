@@ -17,7 +17,7 @@ import './Components/Card/Card.css'
 
 
 function App() {
-  console.log(import.meta.env.BASE_URL)
+  // console.log(import.meta.env.BASE_URL)
   return (
     <>
       <main>

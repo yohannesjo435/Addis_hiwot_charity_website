@@ -5,6 +5,8 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import GalleryPage from "./Components/GalleryPage/GalleryPage"
 import "./Components/GalleryPage/GalleryPage.css"
+import AboutUs from './Components/AboutUs/AboutUs'
+import './Components/AboutUs/AboutUs.css'
 
 const routes = createBrowserRouter([
   {
@@ -14,6 +16,10 @@ const routes = createBrowserRouter([
    {
     path: "/gallery",
     element: <GalleryPage></GalleryPage>
+  },
+  {
+    path: "/Aboutus",
+    element: <AboutUs></AboutUs>
   }
 ], {basename: "/Addis_hiwot_charity_website/"})
 

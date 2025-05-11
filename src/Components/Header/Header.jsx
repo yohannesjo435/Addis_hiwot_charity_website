@@ -3,9 +3,11 @@ import Button from "../Button/Button"
 import "../Button/Button.css"
 import { Link } from "react-router";
 import logo from "../../assets/addishiwot_logo.png"
+// import AboutUs from './Components/AboutUs/AboutUs'
+// import './Components/AboutUs/AboutUs.css'
 
 
-function Header({isInGalleryPage}) {
+function Header({isInGalleryPage, isInAboutUs}) {
   const [isActive, setIsActive] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -29,13 +31,13 @@ function Header({isInGalleryPage}) {
   return (
     <div className="header-wrapper">
       <header>
-        <divc className="logo"><img src={logo} /><p>Addis Hiwot</p></divc>
+        <div className="logo"><img src={logo} /><p>Addis Hiwot</p></div>
         {windowWidth < 900 ? (
           <>
             {isActive && (
               <ul>
                 <li><Link to={"/"}>Home</Link></li>
-                {!isInGalleryPage && <li><a href="#aboutUs">AboutUs</a></li>}
+                <li><Link to="/aboutus">About Us</Link></li>
                 <li><Link to="/gallery">Our Work</Link></li>
                 <li><a href="#footer">Contact Us</a></li>
               </ul>
@@ -43,8 +45,8 @@ function Header({isInGalleryPage}) {
           </>
         ) : (
               <ul>
-                <li><Link style={{color: !isInGalleryPage && "var(--purple)"}} to={"/"}>Home</Link></li>
-                {!isInGalleryPage && <li><a href="#aboutUs">AboutUs</a></li>}
+                <li><Link style={{color: !isInGalleryPage && !isInAboutUs && "var(--purple)"}} to={"/"}>Home</Link></li>
+                <li><Link style={{color: isInAboutUs && "var(--purple)"}}  to="/aboutus">About Us</Link></li>
                 <li><Link style={{color: isInGalleryPage && "var(--purple)"}} to="/gallery">Our Work</Link></li>
                 <li><a href="#footer">Contact Us</a></li>
               </ul>

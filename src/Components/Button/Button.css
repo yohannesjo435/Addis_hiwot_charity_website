@@ -12,11 +12,12 @@
 }
 .btn-component a {
     text-decoration: none;
-    /* color: var(--secondar-gray); */
+    color: #ffffff;
 }
 .btn-component:hover {
+    transform: scale(1.04);
     background-color: black;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 }
 .btn-component:hover a {
     color: #ffffff;
