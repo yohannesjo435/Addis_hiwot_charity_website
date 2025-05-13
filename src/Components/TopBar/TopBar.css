@@ -1,6 +1,6 @@
 .top-bar-wrapper {
     /* width: 100%; */
-    padding: 0 5vw;
+    padding: 0 8.5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,19 +11,57 @@
     font-size: 15px;
     color: var(--ternary-color);
 
+    /* overflow-x: hidden; */
 }
 .social-icons {
     display: flex;
     gap: 10px;
 
 }
+.top-bar-wrapper .top-logo  {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.top-bar-wrapper .uogLogo {
+    width: 80px;
+}
 .phone-number-wrapper {
     display: flex;
     gap: 10px;
     align-items: center;
-
+    transform: translateX(-18px);
 }
 .phone-number-wrapper p {
     margin-top: 2px;
     text-wrap: noWrap;
+}
+
+
+@media (max-width: 900px){
+    .top-bar-wrapper {
+        /* width: 100%; */
+   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top-bar-wrapper .uogLogo {
+        width: 70px;
+    }
+    .phone-number-wrapper {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        transform: translateX(-18px);
+    }
+    .phone-number-wrapper p {
+        display: none;
+    }
+    .phone-number-wrapper .bank-icon, .phone-icon {
+        display: none;
+    }
+    
 }

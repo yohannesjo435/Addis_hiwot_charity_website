@@ -4,14 +4,16 @@
   box-sizing: border-box;
 }
 :root {
+  --purple: #1a241d;
   --purple: #8E7ADA;
   --primary-color: #ffffff;
   --secondary-color: #000000;
   --ternary-color: #142D59;
   --forth-color: #3570FC;
   --gray: #4F4F4F;
-  --primary-font: "Poppins",  Arial, Helvetica, sans-serif;;
+  --primary-font: "Poppins", sans-serif;;
   --secondary-font: "Montserrat", cursive;
+  --ternary-font: "Inter", cursive;
 
 }
 html {

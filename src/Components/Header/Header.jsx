@@ -3,6 +3,7 @@ import Button from "../Button/Button"
 import "../Button/Button.css"
 import { Link } from "react-router";
 import logo from "../../assets/addishiwot_logo.png"
+import UogLogo from "../../assets/uog_logo.png"
 // import AboutUs from './Components/AboutUs/AboutUs'
 // import './Components/AboutUs/AboutUs.css'
 
@@ -31,7 +32,12 @@ function Header({isInGalleryPage, isInAboutUs}) {
   return (
     <div className="header-wrapper">
       <header>
-        <div className="logo"><img src={logo} /><p>Addis Hiwot</p></div>
+        <div className="logo">
+          <img src={logo} />
+          <p>Addis Hiwot</p> 
+          {/* <img className="uogLogo" src={UogLogo}/>
+          <p>University of Gondar</p> */}
+        </div>
         {windowWidth < 900 ? (
           <>
             {isActive && (

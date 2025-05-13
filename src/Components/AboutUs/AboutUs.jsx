@@ -85,27 +85,27 @@ const AboutUs = () => {
             <h3>Impact Areas</h3>
             <div>
               <span>Healthcare Support</span>
-              <span>48</span>
+              <span>48+</span>
             </div>
             <div>
               <span>Educational Aid</span>
-              <span>62</span>
+              <span>62+</span>
             </div>
             <div>
               <span>Community Outreach</span>
-              <span>37</span>
+              <span>37+</span>
             </div>
             <div>
               <span>Youth Empowerment</span>
-              <span>29</span>
+              <span>29+</span>
             </div>
             <div>
               <span>Blood Donation Drives</span>
-              <span>15</span>
+              <span>15+</span>
             </div>
             <div>
               <span>Environmental Protection</span>
-              <span>23</span>
+              <span>23+</span>
             </div>
           </div>
         </div>

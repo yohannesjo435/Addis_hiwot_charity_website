@@ -14,7 +14,12 @@ import Footer from './Components/Footer/Footer'
 import "./Components/Footer/Footer.css"
 import Card from './Components/Card/Card'
 import './Components/Card/Card.css'
-
+import Slider from './Components/Slider/Slider'
+import './Components/Slider/Slider.css'
+import Number from './Components/Numbers/Number'
+import './Components/Numbers/Number.css'
+import SliderNew from './Components/SliderNew/SliderNew'
+import './Components/SliderNew/SliderNew.css'
 
 function App() {
   // console.log(import.meta.env.BASE_URL)
@@ -23,7 +28,10 @@ function App() {
       <main>
         <TopBar></TopBar>
         <Header isInGalleryPage={false}></Header>
-        <Hero></Hero>
+        {/* <Slider></Slider> */}
+        {/* <Hero></Hero> */}
+        <SliderNew></SliderNew>
+        <Number></Number>
         <Card></Card>
         <WhatWeDo></WhatWeDo>
         <section id='aboutUs'>

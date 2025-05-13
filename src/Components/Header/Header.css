@@ -1,7 +1,7 @@
 .header-wrapper {
     position: sticky;
     top: 1%;
-    z-index: 100;
+    z-index: 1000;
     background-color: white;
     width: 90vw;
     margin: auto;
@@ -21,10 +21,15 @@ header {
 }
 header .logo  {
     display: flex;
+    text-align: center;
     align-items: center;
     gap: 5px;
 }
 header .logo img {
+    width: 50px;
+}
+header .uogLogo {
+    margin-top: 7px;
     width: 50px;
 }
 header .logo p {

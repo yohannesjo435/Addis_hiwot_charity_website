@@ -19,24 +19,31 @@ function Card() {
         <div className="cardItem">
           <img src={cardImg1} />
           <div className="cardDesc">
-            A loving family supported by our charity, showcasing the impact of
-            community assistance
+            <h2>Almensh Family From Gondar</h2>
+            <p>
+              A loving family supported by our charity, showcasing the impact of
+              community assistance
+            </p>
           </div>
         </div>
 
         <div className="cardItem">
           <img src={cardImg4} />
           <div className="cardDesc">
-            Volunteers unite to donate blood, saving lives and supporting our
-            charitable mission.
+            <h2>Uog student Donating Blood</h2>
+            <p>
+            Volunteers unite to donate blood, saving lives and supporting our charitable mission.
+            </p>
           </div>
         </div>
 
         <div className="cardItem">
           <img src={cardImg3} />
           <div className="cardDesc">
-            Providing essential grooming and cleanup services to the elderly and
-            homeless, fostering dignity and care.
+            <h2>Provideing support</h2>
+            <p>
+            Providing essential grooming and cleanup services to the elderly and homeless, fostering dignity and care.
+            </p>
           </div>
         </div>
 

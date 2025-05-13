@@ -1,0 +1,109 @@
+.slideshow-container {
+    height: 85vh;
+    position: relative;
+    font-family: var(--primary-font);
+}
+.slideshow-container .mySlides{
+    width: 100%;
+    height: 100%;
+}
+.slideshow-container .mySlides img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    object-position: cover;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.slideshow-container .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0 5px 10px #0004;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.slideshow-container .content h1{
+	font-size: 55px;
+	text-decoration: none;
+	text-align: center;
+	/* text-transform: uppercase; */
+	/* line-height: 1; */
+	color: transparent;
+	-webkit-text-stroke: 1.5px var(--purple);
+	text-shadow: 0 0 0 #fff;
+}
+.slideshow-container .content h3{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    /* line-height: 28px; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dots  {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #6d3636;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {   
+    background-color: #000000;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
