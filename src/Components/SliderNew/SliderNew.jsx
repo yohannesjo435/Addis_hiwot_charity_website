@@ -12,13 +12,13 @@ function SliderNew() {
 
   useEffect(() => {
     showSlides(slideIndex);
-    // const interval = setInterval(() => {
-    //   plusSlides(1);
-    // }, 3000);
+    const interval = setInterval(() => {
+      plusSlides(1);
+    }, 3000);
 
-    // return () => {
-    //   clearInterval(interval);
-    // };
+    return () => {
+      clearInterval(interval);
+    };
   }, [slideIndex]);
 
   function plusSlides(n) {

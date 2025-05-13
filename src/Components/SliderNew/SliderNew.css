@@ -61,7 +61,8 @@
 	text-decoration: none;
 	text-align: center;
 	/* text-transform: uppercase; */
-	/* line-height: 1; */
+	line-height: 1;
+    text-wrap: noWrap;
 	color: transparent;
 	-webkit-text-stroke: 1.5px var(--purple);
 	text-shadow: 0 0 0 #fff;
