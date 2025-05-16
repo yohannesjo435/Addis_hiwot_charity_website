@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import Button from "../Button/Button"
-import "../Button/Button.css"
+// import Button from "../Button/Button"
+// import "../Button/Button.css"
 import { Link } from "react-router";
 
 import cardImg1 from "../../assets/cardImg/grooming.jpg"
