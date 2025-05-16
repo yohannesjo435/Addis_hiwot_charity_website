@@ -20,10 +20,9 @@ function Card() {
         <div className="cardItem">
           <img src={cardImg1} />
           <div className="cardDesc">
-            <h2>Almensh Family From Gondar</h2>
+            <h2>Caring Hands for Our Elders</h2>
             <p>
-              A loving family supported by our charity, showcasing the impact of
-              community assistance
+              Thank you for your compassionate care for our elders. Your support makes a difference!
             </p>
           </div>
         </div>
@@ -31,9 +30,9 @@ function Card() {
         <div className="cardItem">
           <img src={cardImg2} />
           <div className="cardDesc">
-            <h2>Uog student Donating Blood</h2>
+            <h2>Supporting Our Children</h2>
             <p>
-            Volunteers unite to donate blood, saving lives and supporting our charitable mission.
+            Thank you for uplifting our children. Your dedication helps shape their futures!
             </p>
           </div>
         </div>

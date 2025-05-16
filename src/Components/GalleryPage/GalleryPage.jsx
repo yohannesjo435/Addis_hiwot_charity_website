@@ -100,23 +100,20 @@ function GalleryPage() {
           <div className="item">
             <img src={photo9} />
             <div className="desc">
-              Providing essential grooming and cleanup services to the elderly and
-              homeless, fostering dignity and care.
+              Children joyfully getting their hair braided and cut, surrounded by caring volunteers.
             </div>
           </div>
 
           <div className="item">
             <img src={photo11} />
             <div className="desc">
-              Providing essential grooming and cleanup services to the elderly and
-              homeless, fostering dignity and care.
+              Providing meals for those in need, bringing joy during the holidays.
             </div>
           </div>
           <div className="item">
             <img src={photo12} />
             <div className="desc">
-              Providing essential grooming and cleanup services to the elderly and
-              homeless, fostering dignity and care.
+              Essential health support offered to those in need, ensuring their well-being and care.
             </div>
           </div>
 
