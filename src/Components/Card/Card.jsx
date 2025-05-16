@@ -5,7 +5,7 @@ import "../Button/Button.css"
 import { Link } from "react-router";
 
 import cardImg1 from "../../assets/cardImg/grooming.jpg"
-import cardImg2 from "../../assets/cardImg/childimg.jpg"
+import cardImg2 from "../../assets/cardImg/childImg.jpg"
 import cardImg3 from "../../assets/olderPeopleGetingHairCut.jpg"
 // import cardImg4 from "../../assets/girlDonating Blood.jpg"
 // import cardImg5 from "../../assets/cardImg/infant.jpg"
