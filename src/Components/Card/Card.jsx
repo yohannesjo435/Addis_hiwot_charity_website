@@ -4,10 +4,11 @@ import Button from "../Button/Button"
 import "../Button/Button.css"
 import { Link } from "react-router";
 
-import cardImg1 from "../../assets/photoOfFamily.jpg"
-import cardImg2 from "../../assets/helpingTheElderling.jpg"
+import cardImg1 from "../../assets/cardImg/grooming.jpg"
+import cardImg2 from "../../assets/cardImg/childimg.jpg"
 import cardImg3 from "../../assets/olderPeopleGetingHairCut.jpg"
 import cardImg4 from "../../assets/girlDonating Blood.jpg"
+import cardImg5 from "../../assets/cardImg/infant.jpg"
 
 
 function Card() {
@@ -28,7 +29,7 @@ function Card() {
         </div>
 
         <div className="cardItem">
-          <img src={cardImg4} />
+          <img src={cardImg2} />
           <div className="cardDesc">
             <h2>Uog student Donating Blood</h2>
             <p>

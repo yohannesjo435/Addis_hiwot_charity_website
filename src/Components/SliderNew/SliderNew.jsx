@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Button/Button";
 import "../Button/Button.css";
-import heroImg1 from "../../assets/charity members group photo.jpg";
-import heroImg2 from "../../assets/bloodDonation.jpg";
+import heroImg1 from "../../assets/landingImages/gibiEntrance.jpg";
+import heroImg2 from "../../assets/landingImages/picWithThePresedant.jpeg";
 import heroImg3 from "../../assets/collabwithmena.jpg";
-import heroImg4 from "../../assets/GroupPhoto.jpg";
-import heroImg5 from "../../assets/PatroitDayGroupPhoto.jpg";
+import heroImg4 from "../../assets/landingImages/fasilGibi.jpg";
+import heroImg5 from "../../assets/landingImages/group photo.jpg";
+// import heroImg5 from "../../assets/PatroitDayGroupPhoto.jpg";
 
 function SliderNew() {
   const [slideIndex, setSlideIndex] = useState(1);
@@ -109,6 +110,41 @@ function SliderNew() {
         </div>
       </div>
 
+      <div className="mySlides fade">
+        <div className="numbertext">4/4</div>
+        <img src={heroImg4} alt="Caption three" />
+        <div className="content">
+          <h1>Addis Hiwot</h1>
+          <h3>We bring warmth and support to those seeking a second chance.</h3>
+          <Button
+            Children="Donate"
+            backgroundColor={"var(--forth-color)"}
+            width={"136px"}
+            // border="2px solid white"
+            color={"white"}
+            padding={"10px 10px"}
+            href={"#footer"}
+            ></Button>
+        </div>
+      </div>
+      <div className="mySlides fade">
+        <div className="numbertext">5/6</div>
+        <img src={heroImg5} alt="Caption three" />
+        <div className="content">
+          <h1>Addis Hiwot</h1>
+          <h3>We bring warmth and support to those seeking a second chance.</h3>
+          <Button
+            Children="Donate"
+            backgroundColor={"var(--forth-color)"}
+            width={"136px"}
+            // border="2px solid white"
+            color={"white"}
+            padding={"10px 10px"}
+            href={"#footer"}
+            ></Button>
+        </div>
+      </div>
+
       <a className="prev" onClick={() => plusSlides(-1)}>
         {" "}
         ❮{" "}
@@ -122,6 +158,8 @@ function SliderNew() {
         <span className="dot" onClick={() => currentSlide(1)}></span>
         <span className="dot" onClick={() => currentSlide(2)}></span>
         <span className="dot" onClick={() => currentSlide(3)}></span>
+        <span className="dot" onClick={() => currentSlide(4)}></span>
+        <span className="dot" onClick={() => currentSlide(5)}></span>
       </div>
     </div>
   );

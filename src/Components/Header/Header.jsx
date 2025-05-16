@@ -34,7 +34,7 @@ function Header({isInGalleryPage, isInAboutUs}) {
       <header>
         <div className="logo">
           <img src={logo} />
-          <p>Addis Hiwot</p> 
+          <p>Addis Hiwot Charity</p> 
           {/* <img className="uogLogo" src={UogLogo}/>
           <p>University of Gondar</p> */}
         </div>

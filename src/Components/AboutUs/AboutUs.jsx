@@ -101,7 +101,7 @@ const AboutUs = () => {
             </div>
             <div>
               <span>Blood Donation Drives</span>
-              <span>15+</span>
+              <span>825+</span>
             </div>
             <div>
               <span>Environmental Protection</span>

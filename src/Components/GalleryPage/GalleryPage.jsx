@@ -17,6 +17,9 @@ import photo6 from "../../assets/helpingElderly.jpg"
 import photo7 from "../../assets/clotheDonation.jpg"
 import photo8 from "../../assets/WomenGetinBraid.jpg"
 import photo9 from "../../assets/childrenGetingTHeirHairDone.jpg"
+import photo10 from "../../assets/cardImg/childrenInSchool.jpg"
+import photo11 from "../../assets/cardImg/lunch.jpg"
+import photo12 from "../../assets/cardImg/helping.jpg"
 
 function GalleryPage() {
   return (
@@ -27,6 +30,19 @@ function GalleryPage() {
         <h1>Our Gallery</h1>
 
         <div className="image-container">
+          <div className="item">
+              <img src={photo4}/>
+              <div className="desc">
+                Providing Health care support those  in need
+              </div>
+            </div>
+          <div className="item">
+              <img src={photo10}/>
+              <div className="desc">
+                supporting and providing essentail learning tools for children in School
+              </div>
+            </div>
+
           <div className="item">
             <img src={photo1} />
             <div className="desc">
@@ -52,18 +68,9 @@ function GalleryPage() {
           </div>
 
           <div className="item">
-            <img src={photo4}/>
-            <div className="desc">
-              A loving family supported by our charity, showcasing the impact of
-              community assistance
-            </div>
-          </div>
-
-          <div className="item">
             <img src={photo5} />
             <div className="desc">
-              Volunteers unite to donate blood, saving lives and supporting our
-              charitable mission.
+            Providing essential grooming and cleanup services to the mothers and their children.
             </div>
           </div>
 
@@ -78,8 +85,7 @@ function GalleryPage() {
           <div className="item">
             <img src={photo7} />
             <div className="desc">
-              Providing essential grooming and cleanup services to the elderly and
-              homeless, fostering dignity and care.
+              Giving clothe for those in need in our Community
             </div>
           </div>
 
@@ -99,8 +105,20 @@ function GalleryPage() {
             </div>
           </div>
 
-
-
+          <div className="item">
+            <img src={photo11} />
+            <div className="desc">
+              Providing essential grooming and cleanup services to the elderly and
+              homeless, fostering dignity and care.
+            </div>
+          </div>
+          <div className="item">
+            <img src={photo12} />
+            <div className="desc">
+              Providing essential grooming and cleanup services to the elderly and
+              homeless, fostering dignity and care.
+            </div>
+          </div>
 
         </div>
 
