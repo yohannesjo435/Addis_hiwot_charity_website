@@ -5,7 +5,7 @@ import heroImg1 from "../../assets/landingImages/gibiEntrance.jpg";
 import heroImg2 from "../../assets/landingImages/picWithThePresedant.jpeg";
 import heroImg3 from "../../assets/collabwithmena.jpg";
 import heroImg4 from "../../assets/landingImages/fasilGibi.jpg";
-import heroImg5 from "../../assets/landingImages/group photo.jpg";
+import heroImg5 from "../../assets/landingImages/groupphoto.jpg";
 // import heroImg5 from "../../assets/PatroitDayGroupPhoto.jpg";
 
 function SliderNew() {
